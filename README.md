@@ -5,7 +5,7 @@ This is a simple script to download all [VGV](http://www.vgv-info.de) stops as [
 The script uses the following endpoint:
 
 ```
-https://www.rmv.de/auskunft/bin/jp/query.exe/dny?performLocating=2&tpl=stop2json&look_stopclass=2147483647&look_minx={minx}&look_miny={miny}&look_maxx={maxx}&look_maxy={maxy}
+http://moobilplus.hafas.de/hafas/query.exe/dny?performLocating=2&tpl=stop2json&look_stopclass=2147483647&look_minx={minx}&look_miny={miny}&look_maxx={maxx}&look_maxy={maxy}
 ```
 
 It starts from bounding box `(5, 47, 15, 56)` and works down to smaller quadrants.
